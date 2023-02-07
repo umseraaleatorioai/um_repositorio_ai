@@ -5,4 +5,45 @@
  */
 fun main() {
   
- //println("o println serve para exibir textos no console")
+ //println("o println serve para exibir textos no console") 
+
+//----------------------------------------------------------------------------------------------
+/*
+fun main() {
+  
+   println("Eduardo: ei o Caio,é impressão minha ou você ta ficando mais calvo?")
+    
+    println("Caio:nada a ver mano a sua visão ta muito ruim em")  
+    
+    println("Lucas:o que esperar de uma pessoa míope em")
+    
+    println("Lucas:mas caio antes que você fale algo, você tambem é míope -_- ")
+   
+    println("Caio:vocês estão bem doidos, eu não sou míope e também não sou calvo")  
+    
+    println("Eduardo:você já se olhou no espelho?")  
+    
+    println("Lucas:ele é míope, o que ele consegue enxergar bem?,parando pra pensar acho que nada")  
+    
+    println("Lucas:mas vocês sabem de uma coisa né")  
+    
+    println("Eduardo e Caio: o que é?")  
+   
+    println("que vocês dois são calvos e míopes,depois olha a foto que eu mandei pra vocês")  
+    
+    println("Prof Gabriel Eduardo: que é que vocês estão conversando?")
+    println("Eduardo,Caio e Lucas: nada de interesante professor")
+}
+//Variáeis- armazenam valores,dados,informações
+//val - não mutável - não podemos alterar seu valor
+//var- mutável- podemos alterar se valor
+
+//Tipos de variáveis
+//Sring -
+//Int -
+//Foat - 
+//Duble -
+//Log -
+//Bolean -
+}
+*/
