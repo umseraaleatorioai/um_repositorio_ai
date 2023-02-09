@@ -47,3 +47,93 @@ fun main() {
 //Bolean -
 }
 */
+---------------------------------------------------------------------------- 
+fun main() {
+  
+   
+//Variáeis- armazenam valores,dados,informações
+//val - não mutável - não podemos alterar seu valor
+//var- mutável- podemos alterar se valor
+/*
+//Tipos de variáveis
+//
+////Sring - armazena valores de tipo texto - dentro de "" => ex: "leao"
+//Int - armazena números inteirios => 7042
+//Foat - armazena números reais (no geral) - necessita de um f no valor ==> 72.24f
+//Duble - armazena números quebrado (de forma arredondada) ==> 7.15  
+//Log - armazena números longos ==> 57487543875458374.286940 
+//Bolean - verdadeiro ou falso => true, false 
+//
+var cr7 = "Cristiano Ronaldo" 
+var numerosChampions = 5 
+var altura = 1.87
+
+//concatenação
+ 
+print("O nome dele é "+ cr7 +",ele tem" + numerosChampions )
+print("titúlos de champions league e ele tem "+ altura + "de altura SIIIUUU eu sou milior" )
+
+var lapulga = " Lionel Messi"
+var champions = 4
+var alturaDele = 1.02
+ println("O nome dele é $lapulga, ele tem $champions, e ele tem apenas $alturaDele")
+ 
+var tklu = "Lucas Pereira"  
+var minhaIdade = 15
+var minhaAltura = 1.66
+var euGosto = " Jogar, comer,etc.."
+var sobreMim = ("eu tenho alguns problemas na cabeça por causa da minha família e amigos")
+
+println("o meu nome é $tklu, minha idade é $minhaIdade")
+println("a minha altura é $minhaAltura, eu gosto de $euGosto, e sobre mim $sobreMim")
+*/
+
+    
+//operadores matemáticos
+//
+// + => adição
+// - =>subtração
+// * => mutiplicação
+// / =>divisão
+// % => módulo - resto de uma divisão 
+//
+
+//println(45/7)
+//
+//operadores Relacionados
+//
+//
+//== => igual
+//!= => diferente 
+// > => maior que...
+// < => menor que...
+// >= -> maior ou igual ...
+// <= -> menor ou igual a...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
