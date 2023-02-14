@@ -110,8 +110,23 @@ println("a minha altura é $minhaAltura, eu gosto de $euGosto, e sobre mim $sobr
 // >= -> maior ou igual ...
 // <= -> menor ou igual a...
 
+}
+---------------------------------------------------------------------------------------------------------------------------------------------
+//
 
-
+var n1 = 3
+var n2 = 5
+println( "SO ESTOU COM POUCO DE ÓDIO DISSO SABE >:(" )
+println(" ****    >:(   CALCULADORA CHATA DO CARAMBA(NAO PASSA MAIS ISSO PELO AMOR DE DEUS PROF) -_-  ****")
+println("** Adição entre $n1 e $n2 >:(**")
+println("** o resultado da adição é: >:(**" + (n1 + n2))
+println("** subtração entre $n1 e $n2 >:(**")
+println("** o resultado da subtração é: >:(**" + (n1 - n2))
+println("** multiplicação entre $n1 e $n2 >:(**")
+println("** o resultado da multiplicação é: >:( **" + (n1 * n2))
+println("** Divisão entre $n1 e $n2 **")
+println("** o resultado da Divisão é: **" + (n1 / n2))
+println("******>:(      >:(      >:(        >:(       >:(      >:(*****") 
 
 
 
