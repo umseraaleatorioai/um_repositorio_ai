@@ -3,7 +3,7 @@
  * You can edit, run, and share this code.
  * play.kotlinlang.org
  */
-fun main() {
+fun fun main() {
   
  //println("o println serve para exibir textos no console") 
 
@@ -127,6 +127,7 @@ println("** o resultado da multiplicação é: >:( **" + (n1 * n2))
 println("** Divisão entre $n1 e $n2 **")
 println("** o resultado da Divisão é: **" + (n1 / n2))
 println("******>:(      >:(      >:(        >:(       >:(      >:(*****") 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -146,8 +147,93 @@ println("******>:(      >:(      >:(        >:(       >:(      >:(*****")
 
 
 
-
+fun main() {
+  
+ //condições   
+ //
+ //condições simples
+ //
+ //      if --> se..
+ // else --> senão
+ 
+  /*
+ var lembreiDoChocolate = "Sim"    
+    
+  if(lembreiDoChocolate == "Sim "){  
+     
+      printl("Vou entregar o chocolate para você")
+  }else
+    println("Chocolate pra todo mundo!!")
+    */
+    /*
+    var coracoes = -1
+        
+if(coracoes == 10){
+   println("Você está ótimo!! Bom pra você")
+}else if(coracoes == 7){   
+    println("ce ta ok, pode cumer um miojo")
+}else if (coracoes == 4){    
+   println("você não muito bem se cuida! culp do miojo") 
+}else if (coracoes == 1){
+    println("Você vai jogar no vasco, vai ser atacante")    
+}else{
+println("bem vindo ao vasco atacante :)") }
+    
+    
 }
+//se a condição for verdadeira, sua ação sera executada, senão, outra ação será
+//executada
+//condições compostas
+{
+*/
+     
+ var idade = 18   
+    
+ if(idade <= 3){   
+    println("você é um nenê")
+ }else if(idade <=12){
+     println("você é muito infantil!!")
+ }else if(idade <= 18){
+     println("tu é jovem! aproveite a vida")
+ }else if (idade <= 60){  
+   println("tu é adulto!! pague a conta") 
+ }else if(idade > 60){
+    println("Que que há velhinho")
+ }else{
+  println("Você não existe!!!")
+ }
+ 
+ 
+ 
+ 
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
 
 
 
