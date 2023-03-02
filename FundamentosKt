@@ -203,8 +203,75 @@ println("bem vindo ao vasco atacante :)") }
   println("Você não existe!!!")
  }
  
- 
- 
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------
+ fun main() {
+
+ //Laços de repetição   
+ //   
+ // while - enquanto
+ // for - para
+ // do..while - faça.. enquanto
+ // repeat - repita  
+      
+  // laço while
+  // enquanto uma determinada condição for verdadeira, outra determinada
+  // ação sera executada
+  // 
+  //estrutura do while
+  //
+  // while(condição){
+  // ação
+  // } 
+  /*
+  var number = 0
+    
+   while(number <= 47){
+          println(number)
+          number++
+   }
+   */
+    
+    
+    // laço do.. while
+    // 
+    // uma determinada ação sera executada, enquanto outra determinada condição for 
+    // verdadeira
+    // estrutura do do.. while
+    // do{
+    // ação
+    // } while (condição)
+     /* 
+    var idade = 1 
+    
+    do{
+      println("$idade anos? cresça, sério")  
+      idade++  
+    }while(idade <17)
+     */
+//exercício -> O ano Não é bissexto, portanto o ano possui 365 dias,precisa ser exibido no
+//console, os números de 1 a 365, usando no mínimo umma variável, usando os Laços while e 
+//do.. while  
+/*
+var ano = 1
+while(ano < 366){
+          println(ano)
+          ano++
+}
+*/
+
+
+var ano = 1 
+    
+    do{
+      println(ano)  
+      ano++  
+    }while(ano <366)
+
+
+
+}
+
+
  
  
     
