@@ -270,8 +270,41 @@ var ano = 1
 
 
 }
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+//Laços de repetição
+//
+//for - para...
+//
+//for - para cada item em uma lista/ ou qualquer tipo de coleção, será executado uma
+//determinada ação
+//
+// Estrutura do for:
+// for (item in lista/collection/intervalo){
+// ação
+// }
+//  
+ /*
+ for(item in 1..10){
+      println(item)
+*/
+/*
+for(item in 1..10){    
+    println(item * 8)
+    */
+    
+    repeat(18){
+    println(" :) tartaruga")
+}
+}
 
-
+//exercício: faça a tabuada de um número dee sua escolha (sem a do 0,1, do 2 e do 10)              
+//. obseração: precisa utilizar o laço for               
+//
+// repeat - repita...             
+//
+// uma determinada ação será repetida um determianada número de vezes
+// 
  
  
     
