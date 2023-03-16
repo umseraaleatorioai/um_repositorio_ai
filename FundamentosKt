@@ -409,9 +409,41 @@ class Pessoa(){
     var tem alguma alergia?
     var tem alergia a um tipo de medicamento
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+   O RESULTADO DO MEU EXERCÍCIO 
+    
+    val pessoa1 = Pessoa()
+     pessoa1.nome = "Keyla"
+     println(pessoa1.nome)
+     pessoa1.cpf = "445.177.465.78"
+     println(pessoa1.cpf)
+     println(pessoa1.idade)
+     println(pessoa1.altura)
+     pessoa1.problemadsaúde = "sim"
+     println(pessoa1.problemadsaúde)
+     pessoa1.tpdsangue = "AB-"
+     println(pessoa1.tpdsangue)
+     pessoa1.talergia = "N"
+     println(pessoa1.talergia)
+
+}
+
+class Pessoa(){
+    //declaração de atributos para a classe Pessoa
     
     
-    
+
+   var nome = ""
+    var cpf  = ""
+    var idade = 99 
+    var altura = 1.74
+    var problemadsaúde = ""
+    var tpdsangue = ""
+    var talergia = ""   
+        
+}
+// Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um cliente
+// permitido usar a mesma classe pessoa()
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
     
     
     
