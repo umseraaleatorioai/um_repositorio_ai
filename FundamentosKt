@@ -444,9 +444,160 @@ class Pessoa(){
 // Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um cliente
 // permitido usar a mesma classe pessoa()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+  val pessoa1 = Pessoa()
+     pessoa1.nome = "Keyla"
+     println(pessoa1.nome)
+     pessoa1.cpf = "445.177.465.78"
+     println(pessoa1.cpf)
+     println(pessoa1.idade)
+     println(pessoa1.altura)
+     pessoa1.problemadsaúde = "sim"
+     println(pessoa1.problemadsaúde)
+     pessoa1.tpdsangue = "AB-"
+     println(pessoa1.tpdsangue)
+     pessoa1.talergia = "N"
+     println(pessoa1.talergia)
+     
+      
+
+
+
+
+
+
+
+
+
+
+}
+
+class Pessoa(){
+    //declaração de atributos para a classe Pessoa
+    
+    
+
+   var nome = ""
+    var cpf  = ""
+    var idade = 99 
+    var altura = 1.74
+    var problemadsaúde = ""
+    var tpdsangue = ""
+    var talergia = ""   
+        
+}
+// Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um cliente
+// permitido usar a mesma classe pessoa()    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------y    
+  fun main() {
+    
+   var jogador1 = JogadorDeFutebol("Capivara" , "PSG", 20, "Brasil", "Puma", "Zagueiro", 999.0 ) 
+   println(jogador1.nome,)
+    println(jogador1.numero)
+     println(jogador1.posicao)
     
     
     
+    
+    var jogador2 = JogadorDeFutebol("Luffy" , "PSG", 20, "Brasil", "Puma", "Zagueiro", 999.0 ) 
+   println(jogador2.nome,)
+    println(jogador2.numero)
+     println(jogador2.posicao)
+    
+    
+    var jogador3 = JogadorDeFutebol("Calvonaro" , "PSG", 22, "Brasil", "Puma", "meio-campo", 999.0 ) 
+    println(jogador3.nome,)
+    println(jogador3.numero)
+     println(jogador3.posicao)
+    
+    
+    
+    var jogador4 = JogadorDeFutebol("jabuti" , "PSG", 17, "Brasil", "Puma", "lateral direita", 999.0 ) 
+    println(jogador4.nome,)
+    println(jogador4.numero)
+     println(jogador4.posicao)
+    
+    
+    var jogador5 = JogadorDeFutebol("flash" , "PSG", 2, "Brasil", "Puma", "atacante", 999.0 ) 
+     println(jogador5.nome,)
+    println(jogador5.numero)
+     println(jogador5.posicao)
+    
+    
+    
+    var jogador6 = JogadorDeFutebol("gustavao" , "PSG", 7, "Brasil", "Puma", "lateral esquerda", 999.0 ) 
+    println(jogador6.nome,)
+    println(jogador6.numero)
+     println(jogador6.posicao)
+    
+    
+    
+    var jogador7 = JogadorDeFutebol("pereira" , "PSG", 29, "Brasil", "Puma", "volante", 999.0 ) 
+    println(jogador7.nome,)
+    println(jogador7.numero)
+    println(jogador7.posicao)
+    
+    var jogador8 = JogadorDeFutebol("educalvo" , "PSG", 1, "Brasil", "Puma", "goleiro", 999.0 ) 
+    println(jogador8.nome,)
+    println(jogador8.numero)
+    println(jogador8.posicao)
+    
+    
+    var jogador9 = JogadorDeFutebol("cailvo" , "PSG", 11, "Brasil", "Puma", "ponta esquerda", 999.0 )
+    println(jogador9.nome,)
+    println(jogador9.numero)
+    println(jogador9.posicao)
+   
+   
+    var jogador10 = JogadorDeFutebol("goku" , "PSG", 8, "Brasil", "Puma", "ponta direita", 999.0 ) 
+    println(jogador10.nome,)
+    println(jogador10.numero)
+    println(jogador10.posicao)
+    
+    
+    var jogador11 = JogadorDeFutebol("izuku midorya" , "PSG", 10, "Brasil", "Puma", "atacante", 999.0 ) 
+    println(jogador11.nome,)
+    println(jogador11.numero)
+    println(jogador11.posicao)              
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*
+ //Exercício - Faça a escalação do seu time exibindo nome, numero da camisa e posição 
+ //no mínimo
+ //permitido inverntar jogadores  
+  */ 
+
+}
+class JogadorDeFutebol(var nome: String,
+                      var time: String,
+                      var numero: Int,
+                      var nacionalidade: String,
+                      var patrocinio: String,
+                      var posicao: String,
+                      var preco: Double){ 
+ 
+
+
+
+
+
+
+
+
+
+}
+  
     
     
     
