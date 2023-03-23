@@ -597,8 +597,152 @@ class JogadorDeFutebol(var nome: String,
 
 
 }
-  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+fun main() {
+    /*
+    var jogador1 = JogadorDeFutebol("Capivara" , 20, "Brasil",  "Zagueiro", 999.0 ) 
+   println(jogador1.nome,)
+    println(jogador1.numero)
+     println(jogador1.posicao)
     
+    
+    
+    
+    var jogador2 = JogadorDeFutebol("Luffy" , 20, "Brasil",  "Zagueiro", 999.0 ) 
+   println(jogador2.nome,)
+    println(jogador2.numero)
+     println(jogador2.posicao)
+    
+    
+    var jogador3 = JogadorDeFutebol("Ednaldo pereira" , 22, "Brasil", "meio-campo", 999.0 ) 
+    println(jogador3.nome,)
+    println(jogador3.numero)
+     println(jogador3.posicao)
+    
+    
+    
+    var jogador4 = JogadorDeFutebol("jabuti" , 17, "Brasil",  "lateral direita", 999.0 ) 
+    println(jogador4.nome,)
+    println(jogador4.numero)
+     println(jogador4.posicao)
+    
+    
+    var jogador5 = JogadorDeFutebol("flash" , 2, "Brasil", "atacante", 999.0 ) 
+     println(jogador5.nome,)
+    println(jogador5.numero)
+     println(jogador5.posicao)
+    
+    
+    
+    var jogador6 = JogadorDeFutebol("gustavao" , 7, "Brasil",  "lateral esquerda", 999.0 ) 
+    println(jogador6.nome,)
+    println(jogador6.numero)
+     println(jogador6.posicao)
+    
+    
+    
+    var jogador7 = JogadorDeFutebol("pereira" , 29, "Brasil", "volante", 999.0 ) 
+    println(jogador7.nome,)
+    println(jogador7.numero)
+    println(jogador7.posicao)
+    
+    var jogador8 = JogadorDeFutebol("educalvo" , 1, "Brasil",  "goleiro", 999.0 ) 
+    println(jogador8.nome,)
+    println(jogador8.numero)
+    println(jogador8.posicao)
+    
+    
+    var jogador9 = JogadorDeFutebol("cailvo" , 11, "Brasil",  "ponta esquerda", 999.0 )
+    println(jogador9.nome,)
+    println(jogador9.numero)
+    println(jogador9.posicao)
+   
+   
+    var jogador10 = JogadorDeFutebol("goku" , 8, "Brasil",  "ponta direita", 999.0 ) 
+    println(jogador10.nome,)
+    println(jogador10.numero)
+    println(jogador10.posicao)
+    
+    
+    var jogador11 = JogadorDeFutebol("izuku midorya" , 10, "Brasil",  "atacante", 999.0 ) 
+    println(jogador11.nome,)
+    println(jogador11.numero)
+    println(jogador11.posicao)              
+ 
+     var jogador12 = JogadorDeFutebol("sanji" , 10, "Brasil", , "atacante", 999.0 ) 
+    println(jogador120.nome,)
+    println(jogador12.numero)
+    println(jogador12.posicao)              
+    */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*
+ //Exercício - Faça a escalação do seu time exibindo nome, numero da camisa e posição 
+ //no mínimo
+ //permitido inverntar jogadores  
+  */ 
+
+
+
+//Métodos/funções - são um grupo de ações que representam uma determinada atividade de um 
+//determinado objeto
+//
+// Estrutura de um método no Kotlin
+// 
+// fun nomeDela (parametros  se tiver){
+// ações
+// }
+// 
+// var nomeDoObjeto = ClasseDele
+// 
+// nomeDoObjeto.nomeDela
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+class JogadorDeFutebol(var nome: String,
+                      var numero: Int,
+                      var posicao: String){  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+}    
     
     
     
