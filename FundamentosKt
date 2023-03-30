@@ -804,8 +804,58 @@ contaCorrente.saque(0.3, 2984)
  
  
  }    
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+//
+////Métodos/funções - são um grupo de ações que representam uma determinada atividade de um 
+//determinado objeto
+//
+// Estrutura de um método no Kotlin
+// 
+// fun nomeDela (parametros  se tiver){
+// ações
+// }
+// 
+// var nomeDoObjeto = ClasseDele()
+// 
+// nomeDoObjeto.nomeDela(parâmetros) 
+    
+val contaCorrente = ContaBanco(174253789400012, 0.5, "Rogers")    
+contaCorrente.consultarDeposito()   
+contaCorrente.deposito(0.5, 2984)    
+contaCorrente.consultarDeposito()    
     
     
+    
+    
+    
+ }
+    
+    
+ class ContaBanco(val num: Long, var deposito: Double, var dono: String){
+     
+  //Consultar saldo, Saque e Deposito
+  //
+   fun consultarDeposito(){
+       println("O saldo da sua conta é R$$deposito")
+   }
+   
+    fun deposito(valor: Double, senha: Int){
+     
+      if(senha == 2984){
+        if(valor > 0){  
+           deposito += valor // vai subtrair o Valor do Saldo
+             println("R$$valor depositado com sucesso")
+     }else 
+              println("Impossivel depositar  R$$valor")
+     }else{
+          println("Senha incorreta!, tente novamente")
+       }
+   
+   
+     }
+     // Exercício - Deposito na conta do banco
+ 
+ }    
     
     
     
